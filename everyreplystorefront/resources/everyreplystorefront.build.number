@@ -1,0 +1,11 @@
+#Ant properties
+#Tue Jul 31 14:33:46 UTC 2018
+builddate=20180731 1433
+description=everyreplystorefront
+group.id=de.hybris.platform
+module.name=platform-module
+name=everyreplystorefront
+releasedate=20180709 1839
+vendor=hybris
+version=18.08
+version.api=18.08.0
