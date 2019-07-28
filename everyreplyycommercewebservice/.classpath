@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="eclipsebin/notused"/>
+
+				
+				
+				
+				
+	<classpathentry exported="true" kind="src" path="/commercewebservicescommons"/>
+	<classpathentry exported="false" kind="lib" path="web/webroot/WEB-INF/lib/jstl-1.2.jar"/>
+	<classpathentry exported="false" kind="lib" path="web/webroot/WEB-INF/lib/stax-utils-20070216.jar"/>
+	<classpathentry exported="true" kind="lib" path="resources"/>
+	<classpathentry exported="true" kind="src" output="eclipsebin/classes" path="src"/>
+	<classpathentry exported="false" kind="src" output="eclipsebin/web/classes" path="web/src"/>
+	<classpathentry exported="false" kind="src" output="eclipsebin/web/classes" path="web/testsrc"/>
+	<classpathentry exported="true" kind="src" output="eclipsebin/classes" path="testsrc"/>
+	<classpathentry exported="true" kind="src" output="eclipsebin/classes" path="gensrc"/>
+	<classpathentry exported="false" kind="src" path="/platform"/>
+
+
+
+
+
+
+<classpathentry combineaccessrules="false" kind="src" path="/acceleratorwebservicesaddon"/>
+<classpathentry combineaccessrules="false" kind="src" path="/consignmenttrackingoccaddon"/>
+<classpathentry combineaccessrules="false" kind="src" path="/customerinterestsoccaddon"/>
+<classpathentry combineaccessrules="false" kind="src" path="/notificationoccaddon"/>
+<classpathentry combineaccessrules="false" kind="src" path="/stocknotificationoccaddon"/>
+<classpathentry combineaccessrules="false" kind="src" path="/cmsoccaddon"/>
+				
+</classpath>

@@ -1,0 +1,11 @@
+#Ant properties
+#Thu Jul 05 06:49:08 UTC 2018
+builddate=20180705 0649
+description=everyreplyycommercewebservice
+group.id=de.hybris.platform
+module.name=platform-module
+name=everyreplyycommercewebservice
+releasedate=20180704 1255
+vendor=hybris
+version=18.08
+version.api=18.08.0
