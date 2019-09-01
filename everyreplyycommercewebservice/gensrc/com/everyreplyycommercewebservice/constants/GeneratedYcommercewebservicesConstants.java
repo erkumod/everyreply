@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at Jul 28, 2019 12:20:14 PM                    ---
+ * --- Generated at Sep 1, 2019 10:39:16 AM                     ---
  * ----------------------------------------------------------------
  */
 package com.everyreplyycommercewebservice.constants;

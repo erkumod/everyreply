@@ -131,9 +131,29 @@
                 </attributes>
             </itemtype>
             
+             <itemtype code="EveryreplyDepositCategory" generate="true"
+                      autocreate="true">
+              
+                <attributes>
+                      <attribute qualifier="country" type="java.lang.String">
+                        <description>country</description>
+                        <modifiers optional="false" unique="true"/>
+                        <persistence type="property"/>
+                    </attribute>
+                    <attribute qualifier="description" type="localized:java.lang.String">
+                        <description>description</description>
+                        <modifiers optional="true"/>
+                        <persistence type="property"/>
+                    </attribute>
+                    <attribute qualifier="priceValue" type="java.math.BigDecimal">
+                        <description>priceValue</description>
+                        <persistence type="property"/>
+                    </attribute>
+                </attributes>
+            </itemtype>
             
            
-            
+           
         </typegroup>
 
         <typegroup name="Electronics">

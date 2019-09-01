@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at Jul 28, 2019 12:20:14 PM                    ---
+ * --- Generated at Sep 1, 2019 10:39:16 AM                     ---
  * ----------------------------------------------------------------
  */
 package com.everyreply.core.jalo;
@@ -11,6 +11,7 @@ import com.everyreply.core.jalo.ApparelProduct;
 import com.everyreply.core.jalo.ApparelSizeVariantProduct;
 import com.everyreply.core.jalo.ApparelStyleVariantProduct;
 import com.everyreply.core.jalo.ElectronicsColorVariantProduct;
+import com.everyreply.core.jalo.EveryreplyDepositCategory;
 import com.everyreply.core.jalo.KumudApparalProduct;
 import com.everyreply.core.jalo.KumudProduct;
 import de.hybris.platform.jalo.Item;
@@ -151,6 +152,32 @@ public abstract class GeneratedEveryreplyCoreManager extends Extension
 	public ElectronicsColorVariantProduct createElectronicsColorVariantProduct(final Map attributeValues)
 	{
 		return createElectronicsColorVariantProduct( getSession().getSessionContext(), attributeValues );
+	}
+	
+	public EveryreplyDepositCategory createEveryreplyDepositCategory(final SessionContext ctx, final Map attributeValues)
+	{
+		try
+		{
+			ComposedType type = getTenant().getJaloConnection().getTypeManager().getComposedType( EveryreplyCoreConstants.TC.EVERYREPLYDEPOSITCATEGORY );
+			return (EveryreplyDepositCategory)type.newInstance( ctx, attributeValues );
+		}
+		catch( JaloGenericCreationException e)
+		{
+			final Throwable cause = e.getCause();
+			throw (cause instanceof RuntimeException ?
+			(RuntimeException)cause
+			:
+			new JaloSystemException( cause, cause.getMessage(), e.getErrorCode() ) );
+		}
+		catch( JaloBusinessException e )
+		{
+			throw new JaloSystemException( e ,"error creating EveryreplyDepositCategory : "+e.getMessage(), 0 );
+		}
+	}
+	
+	public EveryreplyDepositCategory createEveryreplyDepositCategory(final Map attributeValues)
+	{
+		return createEveryreplyDepositCategory( getSession().getSessionContext(), attributeValues );
 	}
 	
 	public KumudApparalProduct createKumudApparalProduct(final SessionContext ctx, final Map attributeValues)

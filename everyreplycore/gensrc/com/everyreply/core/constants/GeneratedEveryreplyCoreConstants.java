@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at Jul 28, 2019 12:20:14 PM                    ---
+ * --- Generated at Sep 1, 2019 10:39:16 AM                     ---
  * ----------------------------------------------------------------
  */
 package com.everyreply.core.constants;
@@ -20,6 +20,7 @@ public class GeneratedEveryreplyCoreConstants
 		public static final String APPARELSIZEVARIANTPRODUCT = "ApparelSizeVariantProduct".intern();
 		public static final String APPARELSTYLEVARIANTPRODUCT = "ApparelStyleVariantProduct".intern();
 		public static final String ELECTRONICSCOLORVARIANTPRODUCT = "ElectronicsColorVariantProduct".intern();
+		public static final String EVERYREPLYDEPOSITCATEGORY = "EveryreplyDepositCategory".intern();
 		public static final String KUMUDAPPARALPRODUCT = "KumudApparalProduct".intern();
 		public static final String KUMUDPRODUCT = "KumudProduct".intern();
 		public static final String SWATCHCOLORENUM = "SwatchColorEnum".intern();
