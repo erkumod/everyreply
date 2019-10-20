@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry exported="true" kind="src" path="/acceleratorstorefrontcommons"/>
@@ -15,7 +15,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/captchaaddon"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/commerceorgsamplesaddon"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/promotionenginesamplesaddon"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/assistedservicestorefront"/>
+	
 	<classpathentry combineaccessrules="false" kind="src" path="/assistedservicecustomerinterestsaddon"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/assistedserviceyprofileaddon"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/assistedservicepromotionaddon"/>
@@ -35,8 +35,10 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/xyformsstorefrontcommons"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/personalizationsearchsamplesaddon"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/personalizationyprofilesampledataaddon"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/personalizationaddon"/>
+	
 	<classpathentry combineaccessrules="false" kind="src" path="/profiletagaddon"/>
 	<classpathentry kind="src" path="/acceleratorfacades"/>
 	<classpathentry kind="output" path="eclipsebin/notused"/>
+<classpathentry combineaccessrules="false" kind="src" path="/assistedservicestorefront"/>
+<classpathentry combineaccessrules="false" kind="src" path="/personalizationaddon"/>
 </classpath>

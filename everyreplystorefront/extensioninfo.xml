@@ -11,8 +11,10 @@
 --><extensioninfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extensioninfo.xsd">
 
 	<extension abstractclassprefix="Generated" classprefix="EveryreplyStorefront" name="everyreplystorefront" usemaven="false">		
-        <requires-extension name="profiletagaddon"/>
-<requires-extension name="personalizationaddon"/>
+        <requires-extension name="personalizationaddon"/>
+<requires-extension name="assistedservicestorefront"/>
+<requires-extension name="profiletagaddon"/>
+
 <requires-extension name="personalizationyprofilesampledataaddon"/>
 <requires-extension name="personalizationsearchsamplesaddon"/>
 <requires-extension name="xyformsstorefrontcommons"/>
@@ -32,7 +34,7 @@
 <requires-extension name="assistedservicepromotionaddon"/>
 <requires-extension name="assistedserviceyprofileaddon"/>
 <requires-extension name="assistedservicecustomerinterestsaddon"/>
-<requires-extension name="assistedservicestorefront"/>
+
 <requires-extension name="promotionenginesamplesaddon"/>
 <requires-extension name="commerceorgsamplesaddon"/>
 <requires-extension name="captchaaddon"/>

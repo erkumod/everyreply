@@ -1,16 +1,15 @@
-<!--
- [y] hybris Platform
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
- Copyright (c) 2018 SAP SE or an SAP affiliate company.  All rights reserved.
-
- This software is the confidential and proprietary information of SAP
- ("Confidential Information"). You shall not disclose such Confidential
- Information and shall use it only in accordance with the terms of the
- license agreement you entered into with SAP.
--->
 <groups xmlns="http://www.isdc.ro/wro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isdc.ro/wro wro.xsd">
-	<group name="addons_responsive">
-	</group>
-	
-	
+   <group name="addons_responsive">
+      <js>/_ui/addons/assistedservicestorefront/responsive/common/js/assistedservicestorefront.js</js>
+      <js>/_ui/addons/assistedservicestorefront/responsive/common/js/jquery.tablesorter.pager.js</js>
+      <js>/_ui/addons/assistedservicestorefront/responsive/common/js/jquery.tablesorter.min.js</js>
+      <js>/_ui/addons/assistedservicestorefront/responsive/common/js/Chart.min.js</js>
+      <js>/_ui/addons/assistedservicestorefront/responsive/common/js/asm.storefinder.js</js>
+      <css>/_ui/addons/assistedservicestorefront/responsive/common/css/assistedservicestorefront.css</css>
+      <css>/_ui/addons/assistedservicestorefront/responsive/common/css/storeFinder.css</css>
+      <css>/_ui/addons/assistedservicestorefront/responsive/common/css/customer360.css</css>
+   </group>
 </groups>
+

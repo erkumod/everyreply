@@ -112,7 +112,7 @@
 		<transition name="OK" to="success"/>
 	</action>
 
-	<end id="error" state="ERROR">All went wrong.</end>
+	<end id="error" state="ERROR">All went wrong Deleted kumud.</end>
 	<end id="failed" state="FAILED">Order not placed.</end>
 	<end id="success" state="SUCCEEDED">Order placed.</end>
 
